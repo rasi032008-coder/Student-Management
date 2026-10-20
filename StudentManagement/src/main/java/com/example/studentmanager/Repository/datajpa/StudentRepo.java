@@ -4,6 +4,7 @@ import com.example.studentmanager.Model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+//finding by primary key automatically available for repository
 @Repository
 public interface StudentRepo extends JpaRepository<Student,Integer> {
 
