@@ -13,8 +13,8 @@ public class Student implements Member, Serializable {
     int id;
     String name;
     transient String password;
-
-    Integer java,ds,software;
+    
+    Integer java,ds,software; //marks of student
     Student(){
 
     }
