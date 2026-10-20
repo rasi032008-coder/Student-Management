@@ -30,7 +30,7 @@ public class ServiceLayer {
                 + "\n" +
                 "Your code is " + code;
     }
-
+    //str denotes type of faculty signing in i.e. Java faculty, DS faculty or Software faculty
     public String signIn(String id,String password,String str){
         return FacultySignInValidator.validate(id,password,str)
                 + "\n" +
