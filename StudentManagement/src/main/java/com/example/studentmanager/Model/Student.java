@@ -8,11 +8,11 @@ import java.io.Serializable;
 
 @Component
 @Entity
-public class Student implements Member, Serializable {
+public class Student implements Member {
     @Id
     int id;
     String name;
-    transient String password;
+    String password;
     
     Integer java,ds,software; //marks of student
     Student(){
