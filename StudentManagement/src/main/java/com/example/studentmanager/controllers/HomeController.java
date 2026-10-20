@@ -22,6 +22,7 @@ public class HomeController {
         return serviceLayer.signIn(s.getId(),s.getPassword());
     }
 
+    //str denotes type of faculty signing in i.e. Java faculty, DS faculty or Software faculty
     @GetMapping("/faculty/{str}")
     public String signin(@RequestBody Faculty f, @PathVariable String str){
         System.out.println("Sign in function called");
