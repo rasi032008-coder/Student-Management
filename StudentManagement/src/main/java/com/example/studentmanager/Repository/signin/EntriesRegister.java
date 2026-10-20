@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 
 public class EntriesRegister {
 
+     //writing in Files the various types of entries
      static <T>void invalidEntry(T id,String password){
         try(PrintWriter pw = new PrintWriter(
                 new FileWriter("InvalidSignIns.txt",true)
