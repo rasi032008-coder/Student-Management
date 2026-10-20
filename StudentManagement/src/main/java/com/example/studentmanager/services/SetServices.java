@@ -32,6 +32,7 @@ public class SetServices {
         }
     }
 
+    //restores data of other 2 subjects
     private void setDetails(Student s,Student temp,String courseName)throws MarkUpdateFailureException{
         s.setPassword(temp.getPassword());
         if(courseName.equalsIgnoreCase("java")){
