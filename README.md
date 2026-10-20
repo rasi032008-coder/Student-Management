@@ -5,8 +5,12 @@
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
 <!-- ![License](https://img.shields.io/badge/license-MIT-blue) -->
+![Demo](<Screenshot 2026-10-20 194154.png>)
+![Demo](<Screenshot 2026-10-20 194139.png>)
+![Demo](<Screenshot 2026-10-20 194049.png>)
+![Demo](<Screenshot 2026-10-20 194036.png>)
+![Demo](<Screenshot 2026-10-20 193957.png>)
 
-<!-- ![Demo](screenshots/demo.png) -->
 
 
 ## Table of Contents
